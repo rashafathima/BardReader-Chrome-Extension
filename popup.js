@@ -1,4 +1,4 @@
-// Send a message to the content script to extract terms and conditions content
+
 chrome.tabs.query({ active: true, currentWindow: true }, function(tabs) {
   chrome.tabs.sendMessage(tabs[0].id, { action: "extractTermsAndConditions" }, function(response) {
     if (chrome.runtime.lastError) {
@@ -11,10 +11,7 @@ chrome.tabs.query({ active: true, currentWindow: true }, function(tabs) {
       return;
     }
 
-    // Update the popup page with the extracted content
     const contentDiv = document.getElementById("content");
-
-    // Send the extracted content to the server for summarization and shortening
     fetch('http://localhost:8000/process_content', {
       method: 'POST',
       headers: {
@@ -29,7 +26,6 @@ chrome.tabs.query({ active: true, currentWindow: true }, function(tabs) {
         return;
       }
       
-      // Update the popup page with the summarized and shortened content
       contentDiv.innerText = data.summary;
     })
     .catch(error => {
