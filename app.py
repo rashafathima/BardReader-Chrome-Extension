@@ -21,18 +21,14 @@ def process_content():
 
 def summarizeContent(content, max_words):
     try:
-        # Use the Bard API to summarize the content
         response = Bard().get_answer(content)  
         summary = response['content']
 
-        # Split the summary into words
         words = summary.split()
 
         if len(words) <= max_words:
-            # Return the entire summary if it's within the desired word limit
             return summary
         else:
-            # Combine the first `max_words` words
             limited_summary = ' '.join(words[:max_words])
             return limited_summary
     except Exception as e:
