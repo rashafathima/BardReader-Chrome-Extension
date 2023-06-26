@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 from bardapi import Bard
 import os
 
-os.environ['_BARD_API_KEY'] = "YAgYEiiomUKSUZFhwy99Kbc9L-JcXrDF_tCQauJl_HuKNj510ntIe2awQAY0OXgfSFDM8w."
+os.environ['_BARD_API_KEY'] = "YOUR API KEY."
 
 app = Flask(__name__)
 
