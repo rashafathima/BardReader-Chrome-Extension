@@ -36,3 +36,21 @@ Download and extract the zip file or you can clone using the following link
 $ git clone https://github.com/rashafathima/BardReader-Chrome-Extension.git
 ```
 
+#### Find your Bard API
+
+You can use follow [this tutorial](https://generativeai.pub/googles-bard-a-step-by-step-guide-to-using-the-unofficial-bard-api-3abb5b2d6abc) to hunt for your API key. Once you get your API key, replace it with YOUR API KEY in the app.py file.
+
+#### Exceute App.py
+In the directory where your app.py is located run the following command in your terminal.
+
+```
+python app.py
+```
+
+#### Upload Unpacked Files
+* Navigate to chrome://extensions in your google chrome
+* Set it to developer's mode
+* Click on Load Unpacked Files and load your project folder
+
+You can now use your extension to read T&Cs with ease. 
+
