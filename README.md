@@ -1,8 +1,6 @@
 # BardReader-Chrome-Extension
 ## Simplify Terms &amp; Conditions with AI-powered Summaries
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 ### What does it do?
 The "BardReader Chrome Extension" is designed to simplify the process of understanding lengthy Terms and Conditions documents. It leverages the power of AI and the Bard API to extract the key points from these documents and provide concise summaries to the users.
 
