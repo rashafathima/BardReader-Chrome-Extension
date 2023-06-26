@@ -4,19 +4,12 @@
 ### What does it do?
 The "BardReader Chrome Extension" is designed to simplify the process of understanding lengthy Terms and Conditions documents. It leverages the power of AI and the Bard API to extract the key points from these documents and provide concise summaries to the users.
 
-With the extension installed in their Chrome browser, users can easily access the Terms and Conditions of websites or online services they encounter. 
-
-### How I built it ?
-To build the extension, I used a combination of web development technologies, including HTML, CSS, and JavaScript. The core functionality of the extension was implemented using the Chrome Extension API, which allowed for seamless integration with the browser.
-
-The extension leveraged the Bard API, which provided advanced natural language processing capabilities. By making API calls, the extension extracted the relevant sections from the Terms and Conditions documents and generated summaries.
-
-In terms of architecture, the project consisted of different components. The app.py file contained the Flask server that handled the backend logic, including the summarization of the content. The content.js file was responsible for extracting the Terms and Conditions content from the web page using DOM manipulation techniques. The popup.html and popup.js files created the user interface for the extension, displaying the extracted content and initiating the summarization process.
+With the extension installed in their Chrome browser, users can easily access the Terms and Conditions of websites or online services they encounter. The extension leveraged the Bard API, which provided advanced natural language processing capabilities. By making API calls, the extension extracted the relevant sections from the Terms and Conditions documents and generated summaries.
 
 ### Deploy in your system 
 
 #### Requirements
-For development, you will only need Node.js and a node global package, Yarn, installed in your environement.
+For development, you will only need Node.js, Bardapi, Flask and Python Package intsalled in your environment.
 
 #### Node
 - ##### Node installation on Windows
@@ -34,4 +27,8 @@ Run the following command on your terminal to install bardapi
 ```
   $ pip install bardapi
 ```
+
+#### Download the Package
+
+Download and extract the zip file or you can clone using the following link
 
