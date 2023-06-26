@@ -15,3 +15,25 @@ To build the extension, I used a combination of web development technologies, in
 The extension leveraged the Bard API, which provided advanced natural language processing capabilities. By making API calls, the extension extracted the relevant sections from the Terms and Conditions documents and generated summaries.
 
 In terms of architecture, the project consisted of different components. The app.py file contained the Flask server that handled the backend logic, including the summarization of the content. The content.js file was responsible for extracting the Terms and Conditions content from the web page using DOM manipulation techniques. The popup.html and popup.js files created the user interface for the extension, displaying the extracted content and initiating the summarization process.
+
+### Deploy in your system 
+
+#### Requirements
+For development, you will only need Node.js and a node global package, Yarn, installed in your environement.
+
+#### Node
+- ##### Node installation on Windows
+  Just go on [official Node.js website](https://nodejs.org/) and download the installer. If the installation was successful, you should be able to run the following command.
+
+    $ node --version
+    v8.11.3
+
+    $ npm --version
+    6.1.0
+
+#### Bard API and Flask Installation
+For Flask, just go on [official website](https://pypi.org/project/Flask/) and follow the instructions, make sure your system has the latest version of Python Installed. 
+
+Run the following command on your terminal to install bardapi
+  $ pip install bardapi
+
