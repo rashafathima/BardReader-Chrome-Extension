@@ -32,3 +32,7 @@ Run the following command on your terminal to install bardapi
 
 Download and extract the zip file or you can clone using the following link
 
+```
+$ git clone https://github.com/rashafathima/BardReader-Chrome-Extension.git
+```
+
