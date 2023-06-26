@@ -25,8 +25,10 @@ For development, you will only need Node.js and a node global package, Yarn, ins
 - ##### Node installation on Windows
   Just go on [official Node.js website](https://nodejs.org/) and download the installer. If the installation was successful, you should be able to run the following command.
 
+    ```
     $ node --version
     v8.11.3
+    ```
 
     $ npm --version
     6.1.0
