@@ -4,10 +4,7 @@
 ### What does it do?
 The "BardReader Chrome Extension" is designed to simplify the process of understanding lengthy Terms and Conditions documents. It leverages the power of AI and the Bard API to extract the key points from these documents and provide concise summaries to the users.
 
-With the extension installed in their Chrome browser, users can easily access the Terms and Conditions of websites or online services they encounter. The extension extracts the relevant sections and applies natural language processing techniques to summarize the content into concise and understandable summaries.
-
-By using the extension, users can quickly grasp the essential information contained in the Terms and Conditions without having to read through lengthy and complex documents.
-
+With the extension installed in their Chrome browser, users can easily access the Terms and Conditions of websites or online services they encounter. 
 
 ### How I built it ?
 To build the extension, I used a combination of web development technologies, including HTML, CSS, and JavaScript. The core functionality of the extension was implemented using the Chrome Extension API, which allowed for seamless integration with the browser.
@@ -30,12 +27,11 @@ For development, you will only need Node.js and a node global package, Yarn, ins
     v8.11.3
     ```
 
-    $ npm --version
-    6.1.0
-
 #### Bard API and Flask Installation
 For Flask, just go on [official website](https://pypi.org/project/Flask/) and follow the instructions, make sure your system has the latest version of Python Installed. 
 
 Run the following command on your terminal to install bardapi
+```
   $ pip install bardapi
+```
 
